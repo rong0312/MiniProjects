@@ -1,0 +1,7 @@
+git init
+git clone (depends on init, substep)
+git add
+git rm / git rm --cached text1.txt (so it wont be deleted from disk - only from git)
+git remote set-url --push origin https://github.com/rong0312/MiniProjects.git
+git commite -m "message"
+git push -u origin master
